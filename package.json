@@ -26,7 +26,9 @@
     "build": "rollup --config"
   },
   "files": [
-    "dist"
+    "dist/**/*",
+    "index.d.ts",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
