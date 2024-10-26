@@ -27,7 +27,12 @@ jobs:
 
     - name: Run tests
       run: npm test
-
+      
+    - name: Set up Git config
+      run: |
+        git config --global user.email "ch_kaijack@outlook.com"
+        git config --global user.name "jinkai"
+    
     - name: Update package version
       run: |
         npm version patch -m "ci: bump version to %s"
