@@ -5,8 +5,9 @@
   "license": "ISC",
   "type": "module",
   "description": "this is jinmokai's utils",
-  "main": "dist/cjs/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": {
     "url": "https://github.com/JinMokai/js-fn-utils"
   },
