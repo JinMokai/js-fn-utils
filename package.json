@@ -7,6 +7,13 @@
   "description": "this is jinmokai's utils",
   "main": "dist/cjs/index.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/JinMokai/js-fn-utils"
+  },
+  "homepage": "https://github.com/JinMokai/js-fn-utils#readme",
+  "bugs": {
+    "url": "https://github.com/JinMokai/js-fn-utils/issues"
+  },
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/esm/index.mjs",
