@@ -20,7 +20,9 @@
   "files": [
     "dist"
   ],
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.1",
